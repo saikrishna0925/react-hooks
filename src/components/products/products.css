@@ -1,0 +1,32 @@
+.product-image{
+  width: 120px;
+  height: 120px;
+}
+.products-container{
+  list-style-type: none;
+  padding: 0px;
+  
+}
+.card{
+  width: 300px;
+  height: 450px;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  align-items: center;
+  text-align: center; */
+}
+.card p{
+  font-size: 14px;
+  /* font-weight: 700;
+  max-height: 50px; */
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.description{
+  overflow:hidden;
+}
